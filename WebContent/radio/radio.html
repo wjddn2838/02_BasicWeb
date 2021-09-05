@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>라디오 버튼</title>
+</head>
+<body>
+	<form action="radioResult.jsp" method="post">
+		<label for="gender">성별 : </label>
+		<input type="radio" id="gender" name="gender" value="M">남자
+		<input type="radio" id="gender" name="gender" value="F">여자<br>
+		<label for="chk-mail">메일 정보 수신 여부 : </label>
+		<input type="radio" id="chk-mail" name="chk-mail" value="yes">수신		
+		<input type="radio" id="chk-mail" name="chk-mail" value="no">거부<br>
+		<input type="submit" value="전송">
+		<input type="reset" value="취소">
+	</form>
+</body>
+</html>
